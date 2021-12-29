@@ -1,0 +1,97 @@
+/*
+Theme Name: Aegis Home
+Description: This is a child theme of the elementor hello base theme
+Author: Travis McHattie
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: aegishome
+*/
+
+/*** GRAVITY FORMS - FORM STYLING ***/
+.gform_wrapper label.gfield_label {
+font-family: "Source Sans Pro", Sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+	margin-bottom: .25rem;
+	margin-top: .5rem;
+}
+
+body .gform_wrapper .top_label div.ginput_container {
+  margin-top: 0;
+}
+
+body .gform_wrapper ul li.resume input.medium {
+	width: 100%;
+}
+
+.gform_wrapper input[type=text],
+textarea {
+ background: #E7EFF1;
+ border: none;
+ border-radius: 0;
+ color: #666666 !important;
+ padding: 15px !important;
+}
+
+.gform_wrapper .gform_footer input.button {
+ border: none;
+ color: #fff;
+ padding: 12px 23px;
+ border-radius: 0;
+background-color: #C22D5D!important;
+  font-family: "Source Sans Pro", Sans-serif;
+  font-weight: 600;
+	width: 100%;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.gform_wrapper .gform_footer input.button:hover {
+   background-color: #0d3b70;
+}
+
+/* making Elementor animations more subtle*/
+
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0)
+	}
+	to {
+		opacity: 1;
+		transform: none
+	}
+}
+@keyframes fadeInLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(-20%, 0, 0)
+	}
+	to {
+		opacity: 1;
+		transform: none
+	}
+}
+@keyframes fadeInRight {
+	from {
+		opacity: 0;
+		transform: translate3d(10%, 0, 0)
+	}
+	to {
+		opacity: 1;
+		transform: none
+	}
+}
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 20%, 0)
+	}
+	to {
+		opacity: 1;
+		transform: none
+	}
+}
+
+
+
